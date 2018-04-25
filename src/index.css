@@ -1,5 +1,79 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: Arial;
+}
+
+#login, #register {
+  display: table;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+#login {
+  background-color: #25AE90;
+}
+
+#register {
+  background-color: #2D3238;
+}
+
+#loginForm, #registerForm {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.form {
+  margin: 0 auto;
+  width: 300px;
+}
+
+#registerForm input {
+  background-color: #3C4147;
+  color: white;
+}
+
+input{
+  width: 100%;
+  padding: 12px 10px;
+  margin: 5px 0;
+  box-sizing: border-box;
+  font-size: 18px;
+  border: none;
+}
+
+.button {
+  border: none;
+  padding: 15px 10px;
+  margin: 15px 0;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: bold;
+  width: 100%;
+}
+
+.btn-login {
+  background-color: #EDEEF2;
+  color: #25AE90;
+}
+
+.btn-register {
+  background-color: #EA4C89;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+.register-link, .login-link {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.register-link a, .login-link a{
+  color: white;
 }
